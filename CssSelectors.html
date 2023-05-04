@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+<h3>CSS Selectors</h3>
+<!-- Internal CSS -->
+<style>
+/* This is an example of CSS element selector it will select all the paragraphs and will make its color red. */
+    p{
+        color:red;
+    }
+
+    p{
+        border: 2px solid black;
+    }
+
+    /* This is an example of CSS id selector it will only modified the para with same id. */
+    #thirdPara{
+        color:blue;
+    }
+
+
+/* This is an example of CSS class selectors. */
+    .redElement{
+        color:red;
+    }
+    .bgBlack{
+        background-color: black;
+    }
+    /* Grouping Selector */
+    footer,span{
+        background-color: green;
+    }
+  
+</style>
+<body>
+    <p>This is a simple paragraph to demonstrate css selectors</p>
+
+    <p>This is another simple paragraph to demonstrate css selectors</p>
+
+    <p id="thirdPara">This is paragraph to demonstrate css id  selectors</p>
+
+    <div>
+        <p class="redElement bgBlack">This is yet another simple paragraph to demonstrate css class selectors</p>
+    </div>
+
+    <footer>This is a example of footer.</footer>
+    <span>This is a example of span.</span>
+
+    
+</body>
+</html>
