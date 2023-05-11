@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{ 
+            box-sizing: border-box;
+        }
+        .container{
+            width: 700px;
+            border:solid black;
+            margin: 30px auto; 
+            background-color: aqua;
+
+        }
+        .item{
+            border: 3px solid  rgb(28, 145, 28);
+            background-color: rgb(248, 238, 238) ;
+            padding:4px;
+            margin:10px;
+        }
+
+        #fruits{
+            float:left;
+            width: 47%;
+        }
+
+        #computer{
+            float:right;
+            width: 47%;
+        }
+
+        #stationery{
+             /* float:left; */
+             /* clear:left; */
+             clear:both;
+            width: 97%;
+        }
+
+        p, h1{
+            text-align: left;
+            text-align:right;
+            text-align:center;
+            text-align:justify;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident in ullam quidem vel facilis ex consectetur iusto voluptates earum soluta impedit officiis sit nobis officia corporis nisi, nihil ad?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum molestias deserunt earum, quasi saepe dolorum harum vel numquam officiis magnam eum ipsa, doloribus, quo itaque corporis eos. Nam, corporis ullam harum placeat blanditiis odio possimus.</p>
+
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident in ullam quidem vel facilis ex consectetur iusto voluptates earum soluta impedit officiis sit nobis officia corporis nisi, nihil ad?Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nesciunt qui optio cum natus similique est voluptatum aspernatur excepturi dolorem provident aliquam vel temporibus, atque labore aperiam, magnam iusto accusantium modi consequuntur quam facilis praesentium?</p>
+            
+        </div><div id="stationery" class="item">
+            <h3>Stationery</h3>
+            <p id="stationeryspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident in ullam quidem vel facilis ex consectetur iusto voluptates earum soluta impedit officiis sit nobis officia corporis nisi, nihil ad?</p>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
